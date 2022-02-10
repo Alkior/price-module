@@ -1,0 +1,122 @@
+
+body{background: #edf2f7;}
+details{
+  display:block;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  overflow:hidden;
+  margin-bottom: 1.5rem;
+}
+input {
+    line-height: normal;
+    font: inherit;
+}
+
+.search-in-page-input {
+    margin: 3px 0;
+    padding-left: 40px;
+    box-shadow: 0 0 0 3px rgba(0,0,0,.05);
+}
+.input-search {
+    border-radius: 20px;
+    padding: 0 50px 0 20px;
+    border-color: #cecece;
+}
+.input-block {
+    width: 100%;
+}
+.input {
+    display: inline-block;
+    height: 36px;   
+    position: relative;    
+    color: #4c4c4c;
+    vertical-align: middle;
+    border: solid 1px #b4b4b4;
+    outline: none;
+    background-color: #ffffff;    
+    box-sizing: border-box;    
+    transition: all ease 0.3s;
+}
+.form-button{ 
+  background: #fff;
+  width: 20%;
+  box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border: solid 1px #b4b4b4;
+  border-radius: 12px;
+  overflow:hidden;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.service-name{
+width: 80%;
+text-align: left;
+display: inline-block;
+word-break: break-all;
+}
+
+.service-price{
+width: 19%;
+display: inline-block;
+text-align: right;
+vertical-align: top;
+}
+
+summary::-webkit-details-marker{display:none;}
+summary::-moz-list-bullet{list-style-type:none;}
+summary::marker{display:none;} 
+summary {
+   display:block;
+   padding: .3em .3em .3em 1.4em;
+   font-size:1.4em;
+   cursor: pointer;
+   position: relative;
+   border-bottom: 1px solid #e2e8f0;
+}
+summary:before {  
+  top: .4em;
+  left: .3em;
+  color: transparent;
+  /*background: url(https://chuzmsch.ru/bitrix/templates/beauty_modern_s1/images/all-icons-blue.png?14854128356472) no-repeat 0 -90px!Important;
+  */
+  background:url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjM0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIzNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOC41OSAxNi4zNGw0LjU4LTQuNTktNC41OC00LjU5TDEwIDUuNzVsNiA2LTYgNnoiLz48L3N2Zz4=") no-repeat 50% 50% / 1em 1em;
+  width: 1em;
+  height: 1em;  
+  content: "";
+  position: absolute;
+  transition: transform .5s;
+}
+details[open] > summary:before {
+  transform: rotateZ(90deg);
+}
+summary ~ * {
+   padding: 0 2em 5px 2em;
+}
+details[open] summary ~ *{ 
+  animation: sweep .5s ease-in-out;
+}
+@keyframes sweep {
+  0%    {opacity: 0;}
+  100%  {opacity: 1;}
+}
+summary:focus {
+  outline:0;
+  box-shadow: inset 0 0 1px rgba(0,0,0,0.3), inset 0 0 2px rgba(0,0,0,0.3);
+}
+a {
+  color: black;
+}
+span:activ{
+    text-decoration: underline;
+    color: red;    
+}
+a:visited {
+    
+    text-decoration: underline;
+}
+a:active {
+    
+    text-decoration: underline;
+}
